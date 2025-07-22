@@ -1,0 +1,1 @@
+This is a simple JAVA project compiled by javac and it aims to show the message "Hello World"
