@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class UserInfo{
     // Create these variables with proper access modifiers
     public static String name;
@@ -51,11 +50,19 @@ public class UserInfo{
     }
     // Main method for testing
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 // Create 3 different users
-
+        displayThreeUser();
 // Display their information
 // Test your getters and setters
+
+    }
+    public static void displayThreeUser(){
+            System.out.println("Display the first user: ");
+            System.out.println("First Name user: ");
+            System.out.println();
+
+            System.out.println("Display the Second user: ");
+            System.out.println("Display the Third user: ");
 
     }
 }
